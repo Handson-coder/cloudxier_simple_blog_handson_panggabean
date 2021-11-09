@@ -20,7 +20,7 @@ module.exports = {
       trailerUrl: {
         type: Sequelize.STRING
       },
-      imageUrl: {
+      imgUrl: {
         type: Sequelize.STRING
       },
       createdAt: {

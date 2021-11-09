@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
     synopsis: DataTypes.STRING,
     director: DataTypes.STRING,
     trailerUrl: DataTypes.STRING,
-    imageUrl: DataTypes.STRING
+    imgUrl: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Movie',

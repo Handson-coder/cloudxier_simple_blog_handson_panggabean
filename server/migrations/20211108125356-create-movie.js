@@ -9,18 +9,23 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       title: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       synopsis: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       director: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       trailerUrl: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       imgUrl: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       createdAt: {

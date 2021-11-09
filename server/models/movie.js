@@ -14,11 +14,46 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Movie.init({
-    title: DataTypes.STRING,
-    synopsis: DataTypes.STRING,
-    director: DataTypes.STRING,
-    trailerUrl: DataTypes.STRING,
-    imgUrl: DataTypes.STRING
+    title: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notEmpty: { msg: 'Title is required' },
+        notNull: { msg: 'Title is required' }
+      }
+    },
+    synopsis: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notEmpty: { msg: 'Synopsis is required' },
+        notNull: { msg: 'Synopsis is required' }
+      }
+    },
+    director: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notEmpty: { msg: 'Director is required' },
+        notNull: { msg: 'Director is required' }
+      }
+    },
+    trailerUrl: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notEmpty: { msg: 'URL Trailer is required' },
+        notNull: { msg: 'URL Trailer is required' }
+      }
+    },
+    imgUrl: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notEmpty: { msg: 'Image is required' },
+        notNull: { msg: 'Image is required' }
+      }
+    }
   }, {
     sequelize,
     modelName: 'Movie',

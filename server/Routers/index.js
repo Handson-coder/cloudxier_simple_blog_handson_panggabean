@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const routerMovie = require('./routerMovie')
-const errorHandler = require('../middlewares/errorHandler')
+const errorHandler = require('../middlewares/ErrorHandler')
 
 router.use('/movies', routerMovie)
 

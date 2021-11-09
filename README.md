@@ -16,7 +16,7 @@
 
 ### Deployed Back-End
 
-[]
+[https://handson-cloudxier.herokuapp.com]
 
 ### Deployed Front-End
 
@@ -26,20 +26,20 @@
 
 ### Find all Movies
 
-"GET" [/movies ]
+"GET" [https://handson-cloudxier.herokuapp.com/movies]
 
 ### Detail Movie
 
-"GET" [/movies/:id ]
+"GET" [https://handson-cloudxier.herokuapp.com/movies/:id]
 
 ### Create new Movie
 
-"POST" [/movies ]
+"POST" [https://handson-cloudxier.herokuapp.com/movies]
 
 ### Edit Movie
 
-"PUT" [/movies/:id ]
+"PUT" [https://handson-cloudxier.herokuapp.com/movies/:id]
 
 ### Delete Movie
 
-"DELETE" [/movies/:id ]
+"DELETE" [https://handson-cloudxier.herokuapp.com/movies/:id]

@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useHistory, useParams } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchMovie } from "../Store/Actions/index";
+import { fetchMovie, updateMovie } from "../Store/Actions/index";
 import { Link } from "react-router-dom";
-// import Swal from "sweetalert2";
+import Swal from "sweetalert2";
 
 export default function FormUpdate() {
-  const baseUrl = "http://localhost:9000";
   const { id } = useParams();
   const movie = useSelector((state) => state.movie);
   const history = useHistory();
@@ -34,6 +33,14 @@ export default function FormUpdate() {
   };
 
   const updateButton = (e) => {
+    Swal.fire({
+      position: "top-end",
+      icon: "info",
+      title: `Updating Movie`,
+      text: "Please Wait ...",
+      showConfirmButton: false,
+      timer: 1500,
+    });
     e.preventDefault();
     const form = new FormData();
     form.append("title", payload.title);
@@ -41,22 +48,30 @@ export default function FormUpdate() {
     form.append("trailerUrl", payload.trailerUrl);
     form.append("synopsis", payload.synopsis);
     form.append("imgUrl", imgUrl);
-    fetch(`${baseUrl}/movies/${id}`, {
-      method: "put",
-      body: form,
-    })
-      .then((response) => response.json())
-      .then((_) => {
+    dispatch(updateMovie(id, form))
+      .then(({ data }) => {
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: `Movie ${data.title} has been updated`,
+          showConfirmButton: false,
+          timer: 1500,
+        });
+        setPayload({
+          title: "",
+          director: "",
+          synopsis: "",
+          trailerUrl: "",
+        });
         history.push("/");
       })
       .catch((err) => {
-        console.log(err);
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: `${err.response.data.message}`,
+        });
       });
-    setPayload({
-      title: "",
-      director: "",
-      synopsis: "",
-    });
   };
 
   const inputValue = (e, key) => {

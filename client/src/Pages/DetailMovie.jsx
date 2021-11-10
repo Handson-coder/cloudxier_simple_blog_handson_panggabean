@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useHistory, useParams } from "react-router";
 import { Link } from "react-router-dom";
 import { fetchMovie, deletingMovie } from "../Store/Actions";
+import Swal from "sweetalert2";
 
 export default function DetailMovie() {
   const dispatch = useDispatch();
@@ -14,9 +15,31 @@ export default function DetailMovie() {
     dispatch(fetchMovie(id)); // eslint-disable-next-line
   }, [dispatch]);
 
-  const deleteButton = async (id) => {
-    await dispatch(deletingMovie(id));
-    await history.push("/");
+  const deleteButton = (id) => {
+    Swal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!",
+    })
+      .then((result) => {
+        if (result.isConfirmed) {
+          dispatch(deletingMovie(id));
+          Swal.fire("Deleted!", "Movie has been deleted.", "success");
+          history.push("/");
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: `Something Went Wrong`,
+        });
+      });
   };
 
   return (

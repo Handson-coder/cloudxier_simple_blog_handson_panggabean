@@ -20,7 +20,7 @@
 
 ### Deployed Front-End
 
-[]
+[https://handson-cloudxier.web.app]
 
 ## RESTful endpoints
 

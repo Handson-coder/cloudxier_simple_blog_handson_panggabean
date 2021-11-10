@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router";
 import { useDispatch } from "react-redux";
-import { createMovie } from "../Store/Actions/index";
+import { createMovie, setCreateMovie } from "../Store/Actions/index";
 import { Link } from "react-router-dom";
-// import Swal from "sweetalert2";
+import Swal from "sweetalert2";
 
 export default function FormCreate() {
   const history = useHistory();
@@ -17,19 +17,53 @@ export default function FormCreate() {
   });
 
   const createButton = () => {
+    Swal.fire({
+      position: "top-end",
+      icon: "info",
+      title: `Creating Movie`,
+      text: 'Please Wait ...',
+      showConfirmButton: false,
+      timer: 1500,
+    });
     const form = new FormData();
     form.append("title", payload.title);
     form.append("director", payload.director);
     form.append("trailerUrl", payload.trailerUrl);
     form.append("synopsis", payload.synopsis);
     form.append("imgUrl", imgUrl);
-    dispatch(createMovie(form));
-    setPayload({
-      title: "",
-      director: "",
-      synopsis: "",
-    });
-    history.push("/");
+    dispatch(createMovie(form))
+      .then(({ data }) => {
+        dispatch(setCreateMovie(data));
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: `Movie ${data.title} has been created`,
+          showConfirmButton: false,
+          timer: 1500,
+        });
+        setPayload({
+          title: "",
+          director: "",
+          synopsis: "",
+          trailerUrl: "",
+        });
+        setImgUrl({});
+        history.push("/");
+      })
+      .catch((err) => {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: `${err.response.data.message}`,
+        });
+        setPayload({
+          title: "",
+          director: "",
+          synopsis: "",
+          trailerUrl: "",
+        });
+        setImgUrl({});
+      });
   };
 
   const inputValue = (e, key) => {

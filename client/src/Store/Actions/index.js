@@ -6,8 +6,8 @@ import {
 } from "../keys";
 import axios from 'axios'
 
-// const baseUrl = 'https://handson-cloudxier.herokuapp.com'
-const baseUrl = 'http://localhost:9000'
+const baseUrl = 'https://handson-cloudxier.herokuapp.com'
+// const baseUrl = 'http://localhost:9000'
 
 export const setMovies = (payload) => {
   return {
@@ -72,12 +72,13 @@ export const setCreateMovie = (payload) => {
 
 export function createMovie(data) {
   return function (dispatch) {
-    axios.post(`${baseUrl}/movies`, data)
-      .then(({ data }) => {
-        dispatch(setCreateMovie(data))
-      })
-      .catch((err) => console.log(err))
+    return axios.post(`${baseUrl}/movies`, data)
   };
 }
 
+export function updateMovie(id, data) {
+  return function (dispatch) {
+    return axios.put(`${baseUrl}/movies/${id}`, data)
+  };
+}
 

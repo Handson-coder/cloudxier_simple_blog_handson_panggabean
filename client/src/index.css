@@ -1,13 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Nunito", sans-serif;
+  font-size: x-large;
+  font-weight: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image {
+  width: 40rem;
+  height: 45rem;
+}
+
+.image-detail {
+  width: 100%;
+  height: 45rem;
+}
+
+.form-create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+#stroke-current {
+  color: white;
+}
+
+.seperate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parent {
+  padding-left: 38rem;
+  padding-right: 38rem;
+}
+
+.form-parent {
+  /* margin: 0 auto; */
+  width: 98vw;
+}
+
+.form-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-nya {
+  width: 70rem;
+}
+
+.form-nya .seperate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-update-create button {
+  padding: 0 10rem;
+}
+
+.button-cancel .cancel{
+  padding: 0 10rem;
+}
+
+.button-detail .detail-update {
+  padding: 0 4rem;
+}
+
+.button-detail button {
+  padding: 0 4rem;
 }

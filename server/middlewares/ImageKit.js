@@ -3,6 +3,7 @@ const formData = require('form-data')
 
 async function imageKit(req, res, next) {
   try {
+    console.log(req.file);
     if (req.file) {
       const form = new formData()
       const fileEncode = req.file.buffer.toString("base64")

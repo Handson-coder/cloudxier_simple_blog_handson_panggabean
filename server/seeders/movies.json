@@ -7,6 +7,20 @@
     "director": "Álex Pina"
   },
   {
+    "title": "The Wire",
+    "synopsis": "The Baltimore drug scene, as seen through the eyes of drug dealers and law enforcement.",
+    "trailerUrl": "https://www.imdb.com/video/vi4043047193?playlistId=tt0306414&ref_=tt_pr_ov_vi",
+    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/The_Wire_5V5kwRf0X.jpg",
+    "director": "David Simon"
+  },
+  {
+    "title": "Game Of Throne",
+    "synopsis": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+    "trailerUrl": "https://www.imdb.com/video/vi59490329?playlistId=tt0944947&ref_=tt_pr_ov_vi",
+    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Game_Of_throne_OlH96oe3Y.jpg",
+    "director": "David Benioff"
+  },
+  {
     "title": "Breaking Bad",
     "synopsis": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
     "trailerUrl": "https://www.imdb.com/video/vi338798873?playlistId=tt0903747&ref_=tt_ov_vi",
@@ -20,26 +34,13 @@
     "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Stranger_Things_RUnyL1tNF.jpg",
     "director": "Matt Duffer"
   },
-  {
-    "title": "Game Of Throne",
-    "synopsis": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-    "trailerUrl": "https://www.imdb.com/video/vi59490329?playlistId=tt0944947&ref_=tt_pr_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Game_Of_throne_OlH96oe3Y.jpg",
-    "director": "David Benioff"
-  },
+
   {
     "title": "The Suicide Squad",
     "synopsis": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
     "trailerUrl": "https://www.imdb.com/video/vi1024573465?playlistId=tt6334354&ref_=tt_ov_vi",
     "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/suicide_squad_8T511NPNF.jpg",
     "director": "James Gunn"
-  },
-  {
-    "title": "Shershaah",
-    "synopsis": "This is a story of a PVC awardee brave Indian soldier - Capt. Vikram Batra, who shot to fame and became a household name during the Kargil War in 1999.",
-    "trailerUrl": "https://www.imdb.com/video/vi712687641?playlistId=tt10295212&ref_=tt_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Shershaah_E9GyDzF7O.jpg",
-    "director": "Vishnuvardhan"
   },
   {
     "title": "Vikings",
@@ -49,13 +50,6 @@
     "director": "Michael Hirst"
   },
   {
-    "title": "Peaky Blinders",
-    "synopsis": "A gangster family epic set in 1900s England, centering on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.",
-    "trailerUrl": "https://www.imdb.com/video/vi1301724953?playlistId=tt2442560&ref_=tt_pr_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Peaky_Blinders_PzU6KXFWB.jpg",
-    "director": "Steven Knight"
-  },
-  {
     "title": "Rick and Morty",
     "synopsis": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson.",
     "trailerUrl": "https://www.imdb.com/video/vi142786585?playlistId=tt2861424&ref_=tt_ov_vi",
@@ -63,32 +57,11 @@
     "director": "Justin Roiland"
   },
   {
-    "title": "Loki",
-    "synopsis": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.",
-    "trailerUrl": "https://www.imdb.com/video/vi74498073?playlistId=tt9140554&ref_=tt_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Loki_YFGGoV-Wo.jpg",
-    "director": "Michael Waldron"
-  },
-  {
-    "title": "The Conjuring 3",
-    "synopsis": "The Warrens investigate a murder that may be linked to a demonic possession.",
-    "trailerUrl": "https://www.imdb.com/video/vi2587279385?playlistId=tt7069210&ref_=tt_pr_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/The_Conjuring_3_ehx9BFJum.jpg",
-    "director": "Michael Chaves"
-  },
-  {
     "title": "The Walking Dead",
     "synopsis": "Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins and must lead a group of survivors to stay alive.",
     "trailerUrl": "https://www.imdb.com/video/vi3631857689?playlistId=tt1520211&ref_=tt_ov_vi",
     "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/The_Walking_Dead_y3cE-HF-r.jpg",
     "director": "Frank Darabont"
-  },
-  {
-    "title": "The Mandalorian",
-    "synopsis": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
-    "trailerUrl": "https://www.imdb.com/video/vi1311228185?playlistId=tt8111088&ref_=tt_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/The_Mandalorian_DldgamAuR.jpg",
-    "director": "Jon Favreau"
   },
   {
     "title": "Joker",
@@ -104,27 +77,7 @@
     "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Chernobyl_CWux0KvBr.jpg",
     "director": "Craig Mazin"
   },
-  {
-    "title": "Me Before You",
-    "synopsis": "A girl in a small town forms an unlikely bond with a recently-paralyzed man she's taking care of.",
-    "trailerUrl": "https://www.imdb.com/video/vi2845815833?playlistId=tt2674426&ref_=tt_pr_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Me_Before_You_gYje9tXer.jpg",
-    "director": "Thea Sharrock"
-  },
-  {
-    "title": "Transformers",
-    "synopsis": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
-    "trailerUrl": "https://www.imdb.com/video/vi513779993?playlistId=tt0418279&ref_=tt_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/transformers_wHuoh_y3e.jpg",
-    "director": "Michael Bay"
-  },
-  {
-    "title": "The Wire",
-    "synopsis": "The Baltimore drug scene, as seen through the eyes of drug dealers and law enforcement.",
-    "trailerUrl": "https://www.imdb.com/video/vi4043047193?playlistId=tt0306414&ref_=tt_pr_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/The_Wire_5V5kwRf0X.jpg",
-    "director": "David Simon"
-  },
+
   {
     "title": "The witcher",
     "synopsis": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",

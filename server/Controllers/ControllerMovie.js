@@ -66,7 +66,6 @@ class ControllerMovie {
   }
 
   static async deleteMovie(req, res, next) {
-    console.log('masuk delete');
     const { id } = req.params
     try {
       const foundMovie = await Movie.findByPk(id)

@@ -1,24 +1,10 @@
 [
   {
-    "title": "Money Heist",
-    "synopsis": "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
-    "trailerUrl": "https://www.imdb.com/video/vi1583726617?playlistId=tt6468322&ref_=tt_pr_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Money_Heist_359Ojnr85.jpg",
-    "director": "Álex Pina"
-  },
-  {
     "title": "The Wire",
     "synopsis": "The Baltimore drug scene, as seen through the eyes of drug dealers and law enforcement.",
     "trailerUrl": "https://www.imdb.com/video/vi4043047193?playlistId=tt0306414&ref_=tt_pr_ov_vi",
     "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/The_Wire_5V5kwRf0X.jpg",
     "director": "David Simon"
-  },
-  {
-    "title": "Game Of Throne",
-    "synopsis": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-    "trailerUrl": "https://www.imdb.com/video/vi59490329?playlistId=tt0944947&ref_=tt_pr_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Game_Of_throne_OlH96oe3Y.jpg",
-    "director": "David Benioff"
   },
   {
     "title": "Breaking Bad",
@@ -28,33 +14,25 @@
     "director": "Vince Gilligan"
   },
   {
-    "title": "Stranger Things",
-    "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
-    "trailerUrl": "https://www.imdb.com/video/vi862634009?playlistId=tt4574334&ref_=tt_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Stranger_Things_RUnyL1tNF.jpg",
-    "director": "Matt Duffer"
-  },
-
-  {
-    "title": "The Suicide Squad",
-    "synopsis": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-    "trailerUrl": "https://www.imdb.com/video/vi1024573465?playlistId=tt6334354&ref_=tt_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/suicide_squad_8T511NPNF.jpg",
-    "director": "James Gunn"
+    "title": "Chernobyl",
+    "synopsis": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
+    "trailerUrl": "https://www.imdb.com/video/vi3724524825?playlistId=tt7366338&ref_=tt_pr_ov_vi",
+    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Chernobyl_CWux0KvBr.jpg",
+    "director": "Craig Mazin"
   },
   {
-    "title": "Vikings",
-    "synopsis": "Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore - and raid - the distant shores across the ocean.",
-    "trailerUrl": "https://www.imdb.com/video/vi3793207577?playlistId=tt2306299&ref_=tt_pr_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Vikings_4UAYcKqythk.jpg",
-    "director": "Michael Hirst"
+    "title": "The witcher",
+    "synopsis": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+    "trailerUrl": "https://www.imdb.com/title/tt5180504/?ref_=hm_tpks_tt_i_21_pd_tp1_cp",
+    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/The_Witcher__oiU0_lrB.jpg",
+    "director": "Lauren Schmidt"
   },
   {
-    "title": "Rick and Morty",
-    "synopsis": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson.",
-    "trailerUrl": "https://www.imdb.com/video/vi142786585?playlistId=tt2861424&ref_=tt_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Rick_and_Morty_oIeAUuxkx.jpg",
-    "director": "Justin Roiland"
+    "title": "Money Heist",
+    "synopsis": "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
+    "trailerUrl": "https://www.imdb.com/video/vi1583726617?playlistId=tt6468322&ref_=tt_pr_ov_vi",
+    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Money_Heist_359Ojnr85.jpg",
+    "director": "Álex Pina"
   },
   {
     "title": "The Walking Dead",
@@ -64,6 +42,34 @@
     "director": "Frank Darabont"
   },
   {
+    "title": "The Suicide Squad",
+    "synopsis": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
+    "trailerUrl": "https://www.imdb.com/video/vi1024573465?playlistId=tt6334354&ref_=tt_ov_vi",
+    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/suicide_squad_8T511NPNF.jpg",
+    "director": "James Gunn"
+  },
+  {
+    "title": "Game Of Throne",
+    "synopsis": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+    "trailerUrl": "https://www.imdb.com/video/vi59490329?playlistId=tt0944947&ref_=tt_pr_ov_vi",
+    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Game_Of_throne_OlH96oe3Y.jpg",
+    "director": "David Benioff"
+  },
+  {
+    "title": "Stranger Things",
+    "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
+    "trailerUrl": "https://www.imdb.com/video/vi862634009?playlistId=tt4574334&ref_=tt_ov_vi",
+    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Stranger_Things_RUnyL1tNF.jpg",
+    "director": "Matt Duffer"
+  },
+  {
+    "title": "Vikings",
+    "synopsis": "Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore - and raid - the distant shores across the ocean.",
+    "trailerUrl": "https://www.imdb.com/video/vi3793207577?playlistId=tt2306299&ref_=tt_pr_ov_vi",
+    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Vikings_4UAYcKqythk.jpg",
+    "director": "Michael Hirst"
+  },
+  {
     "title": "Joker",
     "synopsis": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
     "trailerUrl": "imdb.com/video/vi1723318041?playlistId=tt7286456&ref_=tt_ov_vi",
@@ -71,18 +77,10 @@
     "director": "Todd Phillips"
   },
   {
-    "title": "Chernobyl",
-    "synopsis": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
-    "trailerUrl": "https://www.imdb.com/video/vi3724524825?playlistId=tt7366338&ref_=tt_pr_ov_vi",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Chernobyl_CWux0KvBr.jpg",
-    "director": "Craig Mazin"
-  },
-
-  {
-    "title": "The witcher",
-    "synopsis": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
-    "trailerUrl": "https://www.imdb.com/title/tt5180504/?ref_=hm_tpks_tt_i_21_pd_tp1_cp",
-    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/The_Witcher__oiU0_lrB.jpg",
-    "director": "Lauren Schmidt"
+    "title": "Rick and Morty",
+    "synopsis": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson.",
+    "trailerUrl": "https://www.imdb.com/video/vi142786585?playlistId=tt2861424&ref_=tt_ov_vi",
+    "imgUrl": "https://ik.imagekit.io/iefyzkif2xd/Rick_and_Morty_oIeAUuxkx.jpg",
+    "director": "Justin Roiland"
   }
 ]

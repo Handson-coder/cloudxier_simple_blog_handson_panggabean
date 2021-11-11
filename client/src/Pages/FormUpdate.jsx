@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useHistory, useParams } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMovie, updateMovie } from "../Store/Actions/index";
-import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 
 export default function FormUpdate() {
@@ -84,17 +83,21 @@ export default function FormUpdate() {
     setImgUrl(e.target.files[0]);
   };
 
+  const goBackToDetailMovie = (id) => {
+    history.push(`/movies/${id}`);
+  };
+
   return (
     <div className="form-parent">
       <div className="form-container">
         <div className="text-center justify-center hero-content lg:text-left text-error">
-          <h1 className="mb-4 mt-4 text-4xl font-bold italic text-neutral-focus uppercase">
+          <h1 className="mb-4 mt-4 xs:mb-1 xs:mt-1 text-4xl xs:text-xl font-bold italic text-neutral-focus uppercase">
             Form Update
           </h1>
         </div>
         <div className="bg-base-100">
           <div className="flex-col justify-center hero-content lg:flex-row">
-            <div className="card flex-shrink-0 w-full max-w-base shadow-2xl bg-base-200">
+            <div className="card flex-shrink-0 shadow-2xl bg-base-200">
               <div className="card-body form-nya">
                 <div className="form-control">
                   <label className="label">
@@ -164,12 +167,12 @@ export default function FormUpdate() {
                   ></textarea>
                 </div>
                 <div className="flex w-96 h-48 items-center justify-center bg-grey-lighter">
-                  <label className="label pr-10">
+                  <label className="label pr-10 xs:pr-20">
                     <span className="font-bold">Image</span>
                   </label>
-                  <label className="w-full h-auto flex flex-col items-center bg-base-300 text-center rounded-lg shadow-lg tracking-wide border border-neutral-focus cursor-pointer hover:bg-neutral hover:text-secondary-content">
+                  <label className="w-full xs:w-52 h-auto flex flex-col items-center bg-base-300 text-center rounded-lg shadow-lg tracking-wide border border-neutral-focus cursor-pointer hover:bg-neutral hover:text-secondary-content">
                     <svg
-                      className="w-8 h-8"
+                      className="w-8 h-8 xs:w-6 xs:h-6"
                       fill="currentColor"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
@@ -188,14 +191,14 @@ export default function FormUpdate() {
                 </div>
                 <div className="mt-1 seperate">
                   <div className="button-cancel">
-                    <Link
+                    <button
                       type="button"
-                      to={`/movies/${movie.id}`}
-                      className="btn btn-neutral rounded-xl cancel"
+                      onClick={() => goBackToDetailMovie(movie.id)}
+                      className="btn btn-neutral rounded-xl"
                       aria-pressed="true"
                     >
                       Cancel
-                    </Link>
+                    </button>
                   </div>
                   <div className="button-update-create">
                     <button

@@ -22,14 +22,14 @@ export default function Home() {
         return (
           <div
             key={movie.id}
-            className="pb-10 rounded overflow-hidden cursor-pointer"
+            className="pb-10 xs:pb-2 rounded overflow-hidden cursor-pointer"
             onClick={() => goToDetailMovie(movie.id)}
           >
             <img className="image" src={movie.imgUrl} alt="" />
-            <div className="px-6 py-4 seperate">
-              <div className="font-bold text-3xl mb-2">{movie.title}</div>
+            <div className="px-6 py-4 xs:px-2 xs:py-1 seperate">
+              <div className="font-bold text-3xl xs:text-lg mb-2">{movie.title}</div>
               <div className="pt-1">
-                <p className="text-gray-700 text-xl">by: {movie.director}</p>
+                <p className="text-gray-700 text-xl xs:text-sm">by: {movie.director}</p>
               </div>
             </div>
           </div>

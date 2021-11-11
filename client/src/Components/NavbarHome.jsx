@@ -3,15 +3,21 @@ import { Link } from "react-router-dom";
 
 export default function NavbarHome() {
   return (
-    <div className="navbar bg-neutral-content text-neutral rounded-box">
+    <div className="navbar bg-neutral-content text-neutral rounded-box xs:bg-neutral-content xs:text-neutral xs:rounded-box">
       <div className="px-2 mx-2 navbar-start">
-        <Link to="/" className="text-lg font-bold uppercase text-2xl">
+        <Link
+          to="/"
+          className="text-lg xs:text-xl font-bold uppercase text-2xl"
+        >
           Home
         </Link>
       </div>
-      <div className="form-create">
+      <div className="form-create xs:navbar-center">
         <div className="flex items-stretch">
-          <Link to="form-create" className="btn btn-ghost btn-sm rounded-btn text-2xl">
+          <Link
+            to="/form-create"
+            className="btn btn-ghost btn-sm rounded-btn text-2xl xs:text-xl"
+          >
             Form Create
           </Link>
         </div>

@@ -43,7 +43,7 @@ export default function DetailMovie() {
   };
 
   return (
-    <div className="parent flex justify-center items-center pt-3 pb-16">
+    <div className="parent flex justify-center items-center pt-3 pb-16 pr-38rem pl-38rem xs:pb-5 xs:pt-1">
       <div className="rounded overflow-hidden shadow-lg">
         <img className="image-detail" src={movie?.imgUrl} alt="" />
         <div className="px-6 py-4">
